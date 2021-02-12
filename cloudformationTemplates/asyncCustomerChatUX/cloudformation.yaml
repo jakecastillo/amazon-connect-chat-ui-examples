@@ -20,12 +20,12 @@ Parameters:
       Enter the (globally unique) name you would like to use for the Amazon S3 bucket where we will store the website contents.
       This template will fail to deploy if the bucket name you chose is currently in use.
     AllowedPattern: '(?=^.{3,63}$)(?!^(\d+\.)+\d+$)(^(([a-z0-9]|[a-z0-9][a-z0-9\-]*[a-z0-9])\.)*([a-z0-9]|[a-z0-9][a-z0-9\-]*[a-z0-9])$)'
-  contactFlowId:
+  contactFlowId: c1b9f441-9694-440c-841b-d0d8e5dca515
     Type: String
     Default: 12345678-1234-1234-1234-123456789012
     Description: The contact flow id that the customer will interact with while chatting. This should be the id of the Basic Contact Flow you uploaded.
     AllowedPattern: '\w{8}-\w{4}-\w{4}-\w{4}-\w{12}'
-  instanceId:
+  instanceId: 790290aa-d8d8-47d5-a61c-bdaac8b72f25
     Type: String
     Default: 12345678-1234-1234-1234-123456789012
     Description: The instance id of the Amazon Connect instance that the customer will interact with while chatting. You can find this in the Amazon Connect console when viewing your instance details.
